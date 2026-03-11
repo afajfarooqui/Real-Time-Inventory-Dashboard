@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: inventory_sql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong!Pass123
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  api:
+    build: ./Inventory_API
+    container_name: inventory_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=InventoryDb;User=sa;Password=YourStrong!Pass123;TrustServerCertificate=True;
+    ports:
+      - "7125:8080"
+    depends_on:
+      - sqlserver
+
+  client:
+    build: ./Inventory_Dashboard_Front
+    container_name: inventory_client
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
+
+volumes:
+  sql_data:
