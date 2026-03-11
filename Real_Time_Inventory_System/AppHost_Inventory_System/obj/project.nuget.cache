@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C2z28VTQSNHksaOnFn/5zWbS4PzxIZHIQFbOzG3ZiytEzRLAihXs2qFdAknXDPELImmVpXVny4EbhekRi3TTxQ==",
+  "dgSpecHash": "6eDI0S1Mkmfo4UUGym5gfp4UJWEAunsF/ZUmPytIHPKzpz2b4Ms5ix+455wt3oKEbrlUN7sb+xtPocs6yINJvQ==",
   "success": true,
-  "projectFilePath": "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
+  "projectFilePath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\8.2.2\\aspire.dashboard.sdk.win-x64.8.2.2.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\aspire.hosting\\8.2.2\\aspire.hosting.8.2.2.nupkg.sha512",

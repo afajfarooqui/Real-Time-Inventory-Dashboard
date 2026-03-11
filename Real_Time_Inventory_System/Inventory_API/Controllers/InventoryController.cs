@@ -1,4 +1,5 @@
 ﻿using Inventory_API.Data;
+using Inventory_API.DTO;
 using Inventory_API.hubs;
 using Inventory_API.Models;
 using Microsoft.AspNetCore.Http;
@@ -41,6 +42,34 @@ namespace Inventory_API.Controllers
             await _hub.Clients.All.SendAsync("InventoryUpdated", item);
 
             return Ok(item);
+        }
+
+        [HttpGet("{id}")]
+
+        public async Task<IActionResult> Get(int id)
+        {
+            var item = await _db.InventoryItems.FindAsync(id);
+
+            return Ok(item);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(InventoryItemCreate dto)
+        {
+            var model = new InventoryItem();
+            model.Sku = dto.Sku;
+            model.Name = dto.Name;
+            model.Quantity = dto.Quantity;
+            model.Price = dto.Price;
+        
+           
+
+            _db.InventoryItems.Add(model);
+            await _db.SaveChangesAsync();
+
+            //    return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
+            return CreatedAtAction(nameof(Get), new { id = model.Id }, model);
+
         }
     }
 }

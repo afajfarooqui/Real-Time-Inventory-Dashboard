@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj": {}
+    "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj": {}
   },
   "projects": {
-    "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj": {
+    "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
+        "projectUniqueName": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
         "projectName": "Inventory_API",
-        "projectPath": "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
+        "projectPath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\obj\\",
+        "outputPath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

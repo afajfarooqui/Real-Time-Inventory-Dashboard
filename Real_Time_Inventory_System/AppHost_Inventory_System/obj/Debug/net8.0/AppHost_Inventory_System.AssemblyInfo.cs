@@ -18,13 +18,14 @@ using System.Reflection;
     "t\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\asus\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\8.2.2\\tools\\ex" +
     "t\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHo" +
+    "st_Inventory_System")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\asus\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\8.2.2\\tools\\Aspire.Das" +
     "hboard.exe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfce2686747ab68a889ec0894c164aef2a42544b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

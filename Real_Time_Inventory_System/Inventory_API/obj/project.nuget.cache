@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fbcCqLE1rXNs56TPgKbmKx0SgveES8NgV75hOiAf1Ck04+HF1UvVfvVzUd1EYnRqwjb5a4MS3rftvKHLa01f4A==",
+  "dgSpecHash": "7UuOe07THSkq3R0lD1BJH72pyMGXEZ9W0KlMuXLJJzqiicgsbkJLMRHl3PMR1wES+fJQi60cTMtGMd2SnDY3ow==",
   "success": true,
-  "projectFilePath": "C:\\.net\\API\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
+  "projectFilePath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Inventory_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

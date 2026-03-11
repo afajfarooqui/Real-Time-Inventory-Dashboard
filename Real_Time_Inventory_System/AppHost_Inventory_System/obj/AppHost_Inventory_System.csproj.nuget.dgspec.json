@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj": {}
+    "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj": {}
   },
   "projects": {
-    "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj": {
+    "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
+        "projectUniqueName": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
         "projectName": "AppHost_Inventory_System",
-        "projectPath": "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
+        "projectPath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\AppHost_Inventory_System.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\.net\\API\\Real_Time_Inventory_System\\AppHost_Inventory_System\\obj\\",
+        "outputPath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\AppHost_Inventory_System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

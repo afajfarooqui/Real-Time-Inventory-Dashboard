@@ -8,5 +8,5 @@ namespace Projects;
 public class AppHost_Inventory_System
 {
     private AppHost_Inventory_System() { }
-    public static string ProjectPath => """C:\.net\API\Real_Time_Inventory_System\AppHost_Inventory_System""";
+    public static string ProjectPath => """C:\.net\API\gitHub\Real-Time-Inventory-Dashboard\Real_Time_Inventory_System\AppHost_Inventory_System""";
 }

@@ -4,6 +4,7 @@ import { DataGrid, type GridColDef } from "@mui/x-data-grid";
 import * as signalR from "@microsoft/signalr";
 import axios from "axios";
 import type { InventoryItem } from "./Inventory_Item";
+import AddInventoryForm from "./AddInventoryForm";
 
 const API_BASE = "http://localhost:7125"; // adjust
 
@@ -79,8 +80,30 @@ export default function InventoryGrid() {
 ], []
   );
 
+  async function handleAdd(item: any) {
+    const newItem = await addInventory(item);
+    setRows(prev => [...prev, newItem]);
+  }
+
+  async function addInventory(item: any) {
+  const response = await fetch(`${API_BASE}/api/inventory`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(item)
+  });
+
+  if (!response.ok) {
+    throw new Error("Failed to add item");
+  }
+
+  return await response.json();
+}
+
   return (
+     <>
+      <AddInventoryForm onSubmit={handleAdd} />
     <div style={{ height: 600, width: "100%" }}>
+    
       <DataGrid
         rows={rows}
         columns={columns}
@@ -93,6 +116,7 @@ export default function InventoryGrid() {
         }}
       />
     </div>
+    </>
   );
 }
 
