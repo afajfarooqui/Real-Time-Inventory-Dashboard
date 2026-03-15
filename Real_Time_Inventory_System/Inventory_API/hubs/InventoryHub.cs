@@ -9,5 +9,11 @@ namespace Inventory_API.hubs
         {
             await Clients.All.SendAsync("InventoryUpdated", sku, quantity);
         }
+
+        // Broadcast a stock update to all connected clients
+        public async Task SendStockAdd()
+        {
+            await Clients.All.SendAsync("InventoryAdd");
+        }
     }
 }

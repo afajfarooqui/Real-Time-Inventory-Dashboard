@@ -67,6 +67,9 @@ namespace Inventory_API.Controllers
             _db.InventoryItems.Add(model);
             await _db.SaveChangesAsync();
 
+            // Broadcast add
+            await _hub.Clients.All.SendAsync("InventoryAdd", model);
+
             //    return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
             return CreatedAtAction(nameof(Get), new { id = model.Id }, model);
 

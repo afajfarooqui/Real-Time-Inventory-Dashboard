@@ -25,7 +25,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfce2686747ab68a889ec0894c164aef2a42544b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+097920b8928eacbc2af37586a96d5660fc0a5a32")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppHost_Inventory_System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

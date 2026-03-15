@@ -3,14 +3,18 @@
   "WorkspaceRootPath": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoryDB/True/SqlTable/dbo.InventoryItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|c:\\.net\\api\\github\\real-time-inventory-dashboard\\real_time_inventory_system\\inventory_api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|solutionrelative:inventory_api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoryDB/True/SqlTable/dbo.InventoryItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\inventory_api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|solutionrelative:inventory_api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|c:\\.net\\api\\github\\real-time-inventory-dashboard\\real_time_inventory_system\\inventory_api\\dto\\inventoryitemcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\inventory_api\\dto\\inventoryitemcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|solutionrelative:inventory_api\\dto\\inventoryitemcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,10 +32,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\inventory_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|solutionrelative:inventory_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\inventory_api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08A3253C-C738-4B39-881F-9B28EAEBB5A4}|Inventory_API\\Inventory_API.csproj|solutionrelative:inventory_api\\hubs\\inventoryhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,24 +41,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryItemCreate.cs",
-              "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\DTO\\InventoryItemCreate.cs",
-              "RelativeDocumentMoniker": "Inventory_API\\DTO\\InventoryItemCreate.cs",
-              "ToolTip": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\DTO\\InventoryItemCreate.cs",
-              "RelativeToolTip": "Inventory_API\\DTO\\InventoryItemCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T20:04:31.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Inventory_API\\Controllers\\InventoryController.cs",
@@ -71,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Dockerfile",
               "RelativeDocumentMoniker": "Inventory_API\\Dockerfile",
@@ -83,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InventoryItem.cs",
               "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Models\\InventoryItem.cs",
               "RelativeDocumentMoniker": "Inventory_API\\Models\\InventoryItem.cs",
@@ -91,12 +78,11 @@
               "RelativeToolTip": "Inventory_API\\Models\\InventoryItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T12:03:29.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T12:03:29.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\appsettings.json",
               "RelativeDocumentMoniker": "Inventory_API\\appsettings.json",
@@ -108,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "dbo.InventoryItems [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/InventoryDB/True/SqlTable/dbo.InventoryItems.sql",
               "ToolTip": "dbo.InventoryItems [Data]",
@@ -118,7 +104,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "InventoryHub.cs",
+              "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\hubs\\InventoryHub.cs",
+              "RelativeDocumentMoniker": "Inventory_API\\hubs\\InventoryHub.cs",
+              "ToolTip": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\hubs\\InventoryHub.cs",
+              "RelativeToolTip": "Inventory_API\\hubs\\InventoryHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T21:20:26.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryItemCreate.cs",
+              "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\DTO\\InventoryItemCreate.cs",
+              "RelativeDocumentMoniker": "Inventory_API\\DTO\\InventoryItemCreate.cs",
+              "ToolTip": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\DTO\\InventoryItemCreate.cs",
+              "RelativeToolTip": "Inventory_API\\DTO\\InventoryItemCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:04:31.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Inventory_API\\Data\\AppDbContext.cs",
@@ -127,18 +138,6 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAmwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T12:06:05.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InventoryHub.cs",
-              "DocumentMoniker": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\hubs\\InventoryHub.cs",
-              "RelativeDocumentMoniker": "Inventory_API\\hubs\\InventoryHub.cs",
-              "ToolTip": "C:\\.net\\API\\gitHub\\Real-Time-Inventory-Dashboard\\Real_Time_Inventory_System\\Inventory_API\\hubs\\InventoryHub.cs",
-              "RelativeToolTip": "Inventory_API\\hubs\\InventoryHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T21:20:26.863Z"
             }
           ]
         }

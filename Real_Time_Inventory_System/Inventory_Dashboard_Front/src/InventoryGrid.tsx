@@ -6,7 +6,7 @@ import axios from "axios";
 import type { InventoryItem } from "./Inventory_Item";
 import AddInventoryForm from "./AddInventoryForm";
 
-const API_BASE = "http://localhost:7125"; // adjust
+const API_BASE = "http://localhost:7125"; // adjust  "http://localhost:5075"; 
 
 export default function InventoryGrid() {  
   const [rows, setRows] = useState<InventoryItem[]>([]);
@@ -80,9 +80,30 @@ export default function InventoryGrid() {
 ], []
   );
 
+  // SignalR connection
+  useEffect(() => {
+    const connection = new signalR.HubConnectionBuilder()
+      .withUrl(`${API_BASE}/hubs/inventory`)
+      .withAutomaticReconnect()
+      .build();
+
+    connection.on("InventoryAdd", (item) => {
+       setRows(prev => [...prev, item]);
+    });
+
+    connection
+      .start()
+      .catch((err) => console.error("SignalR connection error:", err));
+
+    return () => {
+      connection.stop();
+    };
+  }, []);
+
   async function handleAdd(item: any) {
-    const newItem = await addInventory(item);
-    setRows(prev => [...prev, newItem]);
+    await addInventory(item);
+    //const newItem = await addInventory(item);
+    //setRows(prev => [...prev, newItem]);
   }
 
   async function addInventory(item: any) {
